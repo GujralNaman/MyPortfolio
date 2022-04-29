@@ -1,0 +1,824 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body{
+  overflow-x: hidden;
+  background-color: var(--secondary-color);
+}
+
+:root {
+  --primary-color: #ffffff;
+  --secondary-color: #000000;
+}
+
+.dark-theme {
+  --primary-color: #000;
+  --secondary-color: #fff;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  height: 100vh;
+  width: 100%;
+}
+
+.site-banner .container .row .site-title {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+/* START NAVIGATION BAR */
+
+#navbarSupportedContent {
+  position: sticky;
+}
+
+.header_area .main-menu .navbar {
+  position: relative;
+}
+
+.header_area .main-menu .navbar-brand {
+  padding: 0 2rem 0 5rem;
+  font-weight: bolder;
+  font-size: 30px;
+  color: var(--primary-color);
+}
+
+.header_area .main-menu .navbar-brand:hover{
+  color: #fff;
+}
+
+.header_area .main-menu .navbar-brand span {
+  padding: 0 2rem 0 0;
+  font-weight: bolder;
+  font-size: 30px;
+  color: red;
+}
+
+.header_area .main-menu .nav-item .nav-link {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 520;
+  padding: 1.7rem;
+  color: var(--primary-color);
+}
+
+.header_area .main-menu .navbar-nav a:hover {
+  color: rgba(151, 231, 21, 0.651);
+}
+
+/* END NAVIGATION BAR */
+
+/* START BANNERV AREA */
+
+.site-main .site-banner {
+  background-color: var(--secondary-color);
+  background-repeat: no-repeat;
+  /* background-position: 0 50%;  */
+  background-position: 100%;                    
+}
+.site-main .site-banner .site-title {
+  padding-top: 15%;
+  font-weight: 500;
+}
+
+.site-main .site-banner .site-title .title-text span {
+  color: red;
+}
+
+.site-main .site-banner .site-title h3::after {
+  content: "";
+  height: 2px;
+  width: 18vw;
+  background: var(--primary-color);
+  display: inline-block;
+  margin-left: 5%;
+  transform: translateY(-10px);
+}
+
+.site-main .site-banner .site-title h1 {
+  font-size: 3.6rem;
+}
+
+.site-main .site-banner .site-title h4 {
+  font-size: 1.5rem;
+}
+
+.site-main .site-banner .banner-image > img {
+  margin-top: 6rem;
+  margin-bottom: 5rem;
+  /* margin-left: 1rem; */
+  width: 400px;
+  height: 450px;
+  border-radius: 20px;
+  border: 4px solid gray;
+}
+
+.title-text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 72px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+/* Buttons */
+.button{
+  padding: 1.4rem 1.8rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  border: 3px solid transparent;
+  border-radius: 4px;
+}
+
+#home .row a .link{
+  padding: 1.6rem 2rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  border: 3px solid transparent;
+  border-radius: 15px;
+}
+
+.button.primary-button {
+  background-color: rgba(104, 68, 236, 0.616);
+  background-clip: padding-box;
+  color: whitesmoke;
+  padding: 1rem;
+  margin-right: 1rem;
+  border-radius: 15px;
+}
+
+.button.primary-button:hover {
+  background: whitesmoke;
+  background-clip: padding-box;
+  color: var(--secondary-color);
+  border-radius: 15px;
+  border-width: 2px;
+}
+
+.button.primary-button::after,
+.button.secondary-button::after {
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  bottom: -2px;
+  right: -2px;
+  background: rgba(47, 7, 73, 0.651);
+  content: "";
+  border-radius: 4px;
+  z-index: -1;
+}
+
+.button.secondary-button {
+  background: rgba(26, 226, 26, 0.651);   
+  color: whitesmoke;
+  background-clip: padding-box;
+  border: 10px solid greenyellow;
+
+}
+
+.button.secondary-button:hover {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  box-shadow: var(--secondary-color);
+  border: var(--secondary-color);
+  border-radius: 15px;
+  border-width: 2px;
+}
+/* END BANNERV AREA */
+
+/* START ABOUT AREA */
+.about-area .row {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+.title-area .row .title{
+  font-size: 80px;
+  word-spacing: 2px;
+  margin: 1rem 4rem;
+  margin-left: 2rem;
+  color: gray;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+}
+
+.about-area .row p{
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-align: justify;
+  line-height: 2rem;
+  flex-wrap: wrap;
+}
+/* END ABOUT AREA */
+
+/* START SKILL AREA */
+
+.skill-area .row {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+/* SKILL AREA IMAGE STYLING */
+
+.skill-area .row .col-sm-6 .skill-img{
+  display: flex;
+  float: left;
+}
+.skill-area .row img {
+  border-radius: 10px;
+  margin: 2rem;
+  transition: transform 0.2s;
+  width: 250px;
+  height: 200px;
+  border: 4px solid blue;
+}
+
+.skill-area .row img:hover {
+  transform: scale(1.2);
+}
+/* IMAGES HEADING STYLING */
+.skill-area .row .card-body h4 {
+  color: white;
+  margin-left: 1rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 15px;
+}
+
+.skill-area .row .card-body h4:hover {
+  color: greenyellow;
+}
+
+/* END SKILL AREA */
+
+/* START EXPERIENCE AREA */
+.experience-area .row {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+.experience-area .card {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+.experience-area .row .col-lg-12 .card-body .card-title {
+  font-size: 40px;
+  margin-left: 2rem;
+  display: inline;
+  
+}
+
+.experience-area .row .col-lg-12 .card-body .card-title:hover{
+  color: gray;
+}
+
+.experience-area .row .col-lg-12 .card-body .card-footer{
+  font-size: 20px;
+  font-weight: 400;
+  float: right;
+  color: white;
+}
+
+.experience-area .row .col-lg-12 .card-body .card-text{
+  margin-top: 0;
+  margin-bottom: 1rem;
+  margin-left: 0;
+  font-size: 16px;
+  color: palevioletred;
+  word-spacing: 1px;
+  letter-spacing: 1px;
+  display: block;
+}
+
+.experience-area .row .col-lg-12 .card-body ul{
+  font: normal;
+  font-size: 22px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  margin-left: 0;
+  align-items: center;
+  letter-spacing: 3px;
+  justify-content: center;
+  line-height: 2.5rem;
+  flex-wrap: wrap;
+}
+
+.experience-area .row .col-lg-12 .card-body ul li span{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.experience-area .row .col-lg-12 .border-danger .btn-align{
+  margin-left: 1rem;
+}
+/* END EXPERIENCE AREA */
+
+/* START PROJECT AREA */
+.project-area .row{
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+.project-area .row .card{
+  position: relative;
+}
+.project-area .row .col-lg-4 img{
+  width: 450px;
+  height: 350px;
+  margin-left: 1.8rem;
+  border-radius: 5px;
+  object-fit: cover;
+  transition: all 1s ease-in-out;
+}
+
+.project-area .col-lg-4:hover .project-image{
+  transform: scale(1.2);
+  margin: 0 30px;
+  opacity: 0.5;
+}
+
+.project-area .col-lg-4:hover .project-list-item-title,
+.project-area .col-lg-4:hover .project-list-item-desc,
+.project-area .col-lg-4:hover .project-list-item-btn{
+  opacity: 1;
+}
+
+.project-list-item-title{
+  background-color: #333;
+  padding: 0 10px;
+  font-size: 32px;
+  font-weight: bold;
+  position: absolute;
+  top: 10%;
+  left: 60px;
+  opacity: 0;
+  transition: all 1s ease-in-out;
+}
+
+.project-area .portfolio{
+  border: 3px solid gray;
+}
+.project-list-item-desc{
+  background-color: #333;
+  padding: 15px;
+  font-size: 14px;
+  position: absolute;
+  top: 29%;
+  width: 270px;
+  left: 60px;
+  opacity: 0;
+  transition: all 1s ease-in-out;
+}
+
+.project-list-item-btn{
+  background-color: #4dbf00;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+  position: absolute;
+  top: 75%;
+  left: 80px;
+  opacity: 0;
+  transition: all 1s ease-in-out;
+}
+
+.project-list-item-btn a{
+  text-decoration: none;
+  color: white;
+}
+
+.project-list-item-btn a:hover{
+  color: white;
+}
+/* END PROJECT AREA */
+
+/* START ACHIEVEMENT AREA */
+.achievement-area .row{
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+.achievement-area .card .card-img-top{
+  width: 400px;
+  height: 350px;
+  background-size: cover;
+  border: 3px solid yellow;
+  margin-left: 6rem;
+}
+
+.achievement-area .card .card-title{
+  font-size: 25px;
+  margin-left: 3rem;
+  margin-bottom: 25px;
+}
+
+.achievement-area .card .card-text{
+  font: normal;
+  font-size: 20;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  letter-spacing: normal;
+  flex-wrap: wrap;
+  margin-left: 3px;
+  text-align: justify;
+}
+
+.achievement-area .hover-wrap{
+  position: relative;
+}
+
+.achievement-area .hover-wrap img{
+  width: 100%;
+}
+
+.achievement-area .hover-wrap .card-body{
+  box-sizing: border-box;
+  width: 60%;
+  padding: 10px;
+  border: 5px solid grey;
+  position: absolute;
+  bottom: 0;
+  left: 4.5rem;
+  transition: all 1s ease-in-out;
+
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.achievement-area .hover-wrap .card-body{
+  visibility: none; 
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.achievement-area .hover-wrap:hover .card-body{
+  visibility: visible;
+  transition: all 1s ease-in-out;
+  opacity: 1;
+}
+/* END ACHIEVEMENT AREA */
+
+/* START EDUCATION AREA */
+
+.education-area .row{
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+.row .col-lg-6 .card{
+  background-color: black;
+  font-size: 20px;
+  font-weight: normal;
+  border: 3px solid grey;
+  max-height: 300px;
+  width: 700px;
+  margin-left: 5rem;
+}
+
+.row .col-lg-6 .card .card-body{
+  margin-left: 2px;
+}
+
+.row .col-lg-6 .card .title-margin{
+  margin-left: 0;
+  font-size: 22px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.row .col-lg-6 .card .subtitle-margin-2{
+  margin-left: 5px;
+  font-size: 19px;
+  
+}
+
+.row .col-lg-6 .card .subtitle-margin-1{
+  margin-left: 6px;
+  font-size: 15px;
+  
+}
+
+.row .col-lg-6 .card .card-body span{
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.row .col-lg-6 .card .card-body ul span{
+  margin-left: -30px;
+}
+
+.row .col-lg-6 .card .card-body ul li{
+  margin: -6px;
+}
+
+/* END EDUCATION AREA */
+
+/* START CONTACT AREA */
+
+.contact-area .row{
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+.contact-area .row{
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+.contact-area .row .fas, .fab{
+  font-size: 1.6rem;
+  line-height: 55.5px;
+}
+
+
+
+.contact-area .row .btn-floating{
+  font-size: 1rem;
+  margin-left: 1rem;
+  line-height: 2rem;
+  
+}
+
+.contact-area .row .btn-floating:hover{
+  color: greenyellow;
+  
+}
+
+
+.contact-area .row .num{
+  text-decoration: none;
+  margin-left: 1.2rem;
+  letter-spacing: 2px;
+  border-bottom: 3px;
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--primary-color);
+}
+
+.contact-area .row .hoverline:hover{
+  text-decoration: none;
+  color: gray;
+  border-radius: 4px;
+  text-rendering: auto;
+}
+/* END CONTACT AREA */
+
+/* START FOOTER AREA */
+
+.footer-area{
+  font-size: 20px;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  padding-bottom: .3rem;
+}
+/* END FOOTER AREA */
+
+
+@media only screen and (min-width: 940px){
+  .skill-area .row .card-body h4{
+   display: none;
+  }
+}
+@media only screen and (max-width: 940px){
+  .site-title .title-text{
+    font-weight: 500;
+  }
+
+  .site-title .site-buttons .primary-button{
+    width: 110px;
+    height: 70px;
+  }
+
+  .site-title .site-buttons .secondary-button{
+    width: 160px;
+    height: 70px;
+  }
+
+  #home .row a .link{
+    padding: 0.8rem;
+  }
+
+  .site-main .site-banner .banner-image > img{
+    border-radius: 50%;
+    height: 380px;
+    margin-top: 5.2rem;
+    margin-bottom: 2rem;
+  }
+
+  .title-area .row .title{
+    font-size: 40px;
+    margin-left: 100px;
+    text-decoration: none;
+  }
+
+  .title-area .row .title-1{
+    margin-left: 40px;
+  }
+
+  .title-area .row .title-2{
+    margin-left: 13px;
+  }
+
+  .title-area .row .title-3{
+    margin-left: 48px;
+  }
+  .title-area .row .title-4{
+    margin-left: 80px;
+  }
+
+  .about-area .row p{
+    font-size: 12px;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 1.2rem;
+    margin-left: -1px;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+  }
+
+  .skill-area .row img {
+    border: 4px solid blue;
+    width: 100px;
+    height: 100px;
+    display: flex;
+  }
+
+  .experience-area .row .col-lg-12 .card-body .card-title{
+    font-size: 30px;
+    margin-left: 1rem;
+  }
+
+  .experience-area .row .col-lg-12 .card-body .card-text {
+    margin-left: 0;
+    color: palevioletred;
+  }
+
+  .experience-area .row .col-lg-12 .card-body ul{
+    font-size: 13px;
+    font-weight: normal;
+    margin-left: 0;
+    letter-spacing: normal;
+    text-align: justify;
+    line-height: 2rem;
+  }
+
+  .experience-area .row .col-lg-12 .card-body ul li span{
+    font-size: 20px;
+  }
+
+  .experience-area .row .col-lg-12 .border-danger .btn-align{
+    margin-left: 70px;
+  }
+
+  .experience-area .card-footer{
+    display: none;
+  }
+
+
+  /* ACHIEVEMENT AREA */
+
+  .achievement-area .card .card-img-top{
+  width: 300px;
+  height: 300px;
+  background-size: cover;
+  border: 4px solid yellow;
+  margin: 1.5rem;
+  }
+
+  .achievement-area .hover-wrap .card-body{
+    box-sizing: border-box;
+    width: 70%;
+    height: 55%;
+    padding: 10px;
+    border: 5px solid grey;
+    position: absolute;
+    bottom: 0;
+    left: 3rem;
+    bottom: 3rem;
+  
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+  }
+
+  /* EDUCATION AREA */
+
+  .row .col-lg-6 .card .title-margin{
+    margin-left: 0;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .row .col-lg-6 .card .subtitle-margin-2, .subtitle-margin-1{
+    display: none;
+  }
+
+  .row .col-lg-6 .card .card-body span{
+    font-weight: 450;
+    font-size: 22px;
+    word-spacing: 5px;
+  }
+
+  .row .col-lg-6 .card .card-body .edu-degree{
+    font-size: 18px;
+  }
+
+  .row .col-lg-6 .card .card-body .edu-cgpa{
+    font-size: 18px;
+  }
+
+  .row .col-lg-6 .card .card-body ul li{
+    margin: 4px 0;
+  }
+
+  .row .col-lg-6 .first-card{
+  max-height: 300px;
+  width: 360px;
+  margin-left: 0;
+  }
+  .row .col-lg-6 .second-card{
+  max-height: 300px;
+  width: 360px;
+  margin-top: 35px;
+  margin-left: 0;
+  }
+
+  /* CONTACT AREA */
+
+  .contact-area .row .num{
+    text-decoration: none;
+    margin-left: 1rem;
+    letter-spacing: normal;
+    border-bottom: 2px;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--primary-color);
+  }
+
+  .footer-area{
+    font-size: 13px;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    padding-top: 1rem;
+    padding-bottom: 0;
+  }
+
+  /* SKILL AREA */
+
+  .skill-area .img-positioning{
+    float: left;
+    width: 50%;
+  }
+
+  .skill-area .row-positioning::after{
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .skill-area .row img {
+    margin: 1rem;
+  }
+
+  /* PROJECT AREA */
+
+  .project-area .row .col-lg-4 img{
+    width: 340px;
+    height: 300px;
+    margin: 0.7rem;
+  }
+
+  .project-area .third-img{
+    display: none;
+  }
+
+  .project-area .col-lg-4:hover .project-image{
+    transform: scale(1.1);
+    margin: 5px 20px;
+    opacity: 0.5;
+  }
+}
