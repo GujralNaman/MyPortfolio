@@ -597,6 +597,21 @@ body {
 }
 /* END FOOTER AREA */
 
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+    margin-top: -6vh;
+  }
+}
+
+@media (min-width: 992px){
+.col-lg-6 {
+    flex: 0 0 auto;
+    width: 50%;
+   margin-left: -2vw;
+  }
+}
 
 @media only screen and (min-width: 940px){
   .skill-area .row .card-body h4{
@@ -651,13 +666,15 @@ body {
   }
 
   .about-area .row p{
-    font-size: 12px;
+    font-size: 18px;
     font-style: normal;
     letter-spacing: normal;
     line-height: 1.2rem;
-    margin-left: -1px;
+    margin-left: 1%;
+    width: 98%;
     font-family: 'Roboto', sans-serif;
     text-align: justify;
+
   }
 
   .skill-area .row img {
@@ -725,6 +742,10 @@ body {
   }
 
   /* EDUCATION AREA */
+
+  #education .row .col-lg-6{
+    margin-left: -2vw;
+  }
 
   .row .col-lg-6 .card .title-margin{
     margin-left: 0;
