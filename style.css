@@ -354,7 +354,7 @@ body {
 .project-area .col-lg-4:hover .project-image{
   transform: scale(1.2);
   margin: 0 30px;
-  opacity: 0.5;
+  opacity: 0.2;
 }
 
 .project-area .col-lg-4:hover .project-list-item-title,
