@@ -650,9 +650,11 @@ body {
   }
 
   .site-main .site-banner .banner-image > img{
-    border-radius: 50%;
-    height: 380px;
-    margin-top: 5.2rem;
+    /* border-radius: 50%; */
+    height: 430px;
+    width: 300px;
+    margin-left: 15px;
+    margin-top: 4.2rem;
     margin-bottom: 2rem;
   }
 
