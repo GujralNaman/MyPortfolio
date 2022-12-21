@@ -853,14 +853,20 @@ body {
     height: 300px;
     margin: 0.7rem;
   }
-
+/* 
   .project-area .third-img{
     display: none;
-  }
+  } */
 
   .project-area .col-lg-4:hover .project-image{
     transform: scale(1.1);
     margin: 5px 20px;
     opacity: 0.5;
+  }
+
+  .button .lor{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
   }
 }
