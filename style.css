@@ -635,6 +635,14 @@ body {
     font-weight: 500;
   }
 
+  /* .experience-area .card-body a .lor{
+    display: none;
+  } */
+
+  .experience-area .row .col-lg-12 .border-danger .lor{
+    display: none;
+  }
+
   .site-title .site-buttons .primary-button{
     width: 110px;
     height: 70px;
