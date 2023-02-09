@@ -30,6 +30,45 @@ body {
   background-color: var(--secondary-color);
   color: var(--primary-color);
 }
+
+/* WHATSAPP POPUP BAR */
+/* whatsapp bar */
+#whatsapp_chat_widget #wa-widget-send-button div{
+  background-color: #4dc247;
+  color: #fff;
+}
+
+#whatsapp_chat_widget #wa-widget-send-button svg{
+  background-color: #4dc247;
+}
+
+.wa-chat-box-send svg{
+  background-color: #4dc247;
+}
+
+.wa-chat-box-send .wa-chat-box-content-send-btn-text{
+  background-color: #4dc247;
+}
+
+.wa-chat-box-brand-name{
+  background-color: #0A5F54;
+}
+.wa-chat-box-brand-subtitle{
+  background-color: #0A5F54;
+}
+
+.wa-chat-bubble-close-btn img{
+  background-color: #0A5F54;
+}
+
+.wa-chat-box-poweredby {
+  display: none;
+}
+
+.wa-chat-box-header .wa-chat-box-brand{
+  display: none;
+}
+/* WHATSAPP POPUP BAR */
 /* START NAVIGATION BAR */
 
 #navbarSupportedContent {
