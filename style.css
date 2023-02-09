@@ -916,4 +916,12 @@ body {
     display: flex;
     justify-content: center;
   }
+
+  #whatsapp_chat_widget #wa-widget-send-button{
+    border-radius: 20%;
+  }
+
+  #whatsapp_chat_widget #wa-widget-send-button div{
+    display: none;
+  }
 }
