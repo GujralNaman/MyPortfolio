@@ -725,13 +725,17 @@ body {
   }
 
   .site-title .site-buttons .primary-button{
-    width: 110px;
+    width: 120px;
     height: 70px;
+    margin-top: 2vh;
+    margin-bottom: -4vh;
+    margin-left: 4vw;
   }
 
   .site-title .site-buttons .secondary-button{
     width: 160px;
     height: 70px;
+    margin-bottom: -4vh;
   }
 
   #home .row a .link{
@@ -973,5 +977,9 @@ body {
 
   #whatsapp_chat_widget #wa-widget-send-button div{
     display: none;
+  }
+
+  .container-x .text{
+    font-size: 30px;
   }
 }
