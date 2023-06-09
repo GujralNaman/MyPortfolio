@@ -545,13 +545,14 @@ body {
   font-size: 20px;
   font-weight: normal;
   border: 3px solid grey;
-  max-height: 300px;
+  max-height: 500px;
   width: 700px;
-  margin-left: 5rem;
+  margin-left: 4rem;
 }
 
 .row .col-lg-6 .card .card-body{
   margin-left: 2px;
+  height: 55vh;
 }
 
 .row .col-lg-6 .card .title-margin{
@@ -813,6 +814,14 @@ body {
 
   #education .row .col-lg-6{
     margin-left: -2vw;
+  }
+
+  #education .row .card{
+    max-height: 65vh;
+  }
+
+  .hide{
+    display: none;
   }
 
   .row .col-lg-6 .card .title-margin{
