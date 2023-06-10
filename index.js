@@ -7,7 +7,7 @@ const text = document.querySelector(".sec-text");
             text.textContent = "Coding Enthusiast...";
         }, 4000);
         setTimeout(() => {
-            text.textContent = "Learner....";
+            text.textContent = "Technophile....";
         }, 8000);
     }
     textLoad();
