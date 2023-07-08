@@ -12,3 +12,13 @@ const text = document.querySelector(".sec-text");
     }
     textLoad();
     setInterval(textLoad, 12000);
+
+    var audio = new Audio("./a.wav");
+        var numberOfButtons = document.querySelectorAll(".btn").length;
+        for(var i=0; i<numberOfButtons; i++){
+            document.querySelectorAll(".btn")[i].addEventListener("click",handleClick);
+            function handleClick(){
+                // alert("i got clicked");
+                audio.play();
+            }
+        }
